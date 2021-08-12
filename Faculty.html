@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale= 1.0" charset="utf-8">
+  <title>Chemineers</title>
+
+  <!-- style.csss -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/><link rel="stylesheet" href="./style_footer.css">
+
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <section class="header">
+<!--
+1.we are removing anchor tag from the logo
+2.Removing About part from nav bar, can be added to home
+3.Adding research
+4.Replacing team to people
+5.Removing gallery to sessions and we can also add photos there
+6. No need to add 'Visit Us to know More'.
+-->
+    <!-- navbar -->
+    <nav>
+      <div id="navLinks" class="nav-links">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="blogs.html">BLOGS</a></li>
+          <li><a href="sessions.html">SESSIONS</a></li>
+          <li><a href="research.html">RESEARCH</a></li>
+          <li><a href="simutech.html">SIMUTECH</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!-- HEADER TEXT -->
+
+    <div class="text-box">
+      <h2><i>Welcome To Chemineers!</i></h2>
+      <h1>IT'S CHEMICAL ENGINEERING SOCIETY</h1>
+    </div>
+
+  </section>
+
+
+<!-- We can include Activities section in Sessions-->
+
+  <!-- About Us  -->
+
+  <section class="about">
+    <h1> About Us </h1>
+    <p>Chemineers is a student body aiming to promote intellectual and cultural <br> activities in the Department of Chemical Engineering, IIT Kanpur. It helps<br> students identify campus resources and foster harmonious<br> relationships among students and faculty.   </p>
+
+    
+    <section class="start">
+        <div class="roww">
+            
+            <h2>Faculty advisor</h2>
+            <div class="image">
+                <img src="https://www.iitk.ac.in/che/chemineersweb/html/Team/OIP.jfif" alt="" >
+                <br>
+                
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt iste quam atque, in modi  illo cupiditate quo quidem. Similique, quisquam. Sapiente, est. Distinctio recusandae esse nesciunt porro veritatis sunt eaque placeat et sapiente libero cumque earum reiciendis quasi, eos vero voluptate facilis consectetur voluptatum mollitia.
+               </p>
+               <br>
+    
+        </div>
+    </section>
+    <br>
+    <br>
+  </section>
+
+
+<!-- Removing feeback Section from home, can be added somewhere else-->
+<!--Removed contact us button-->
+
+
+</section>
+<footer>
+<section class="lastpart">
+
+
+  <div class="row">
+    <div class="lastpart-col">
+
+      <h3>Location</h3>
+      <p>FB-462<br> Department of Chemical Engineering<br> Indian Institute of Technology, Kanpur <br>Uttar Pradesh, 208016</p>
+
+    </div>
+    <div class="lastpart-col">
+      <div class="media-icons">
+        <h3>Around The Web</h3>
+        <a href="https://www.facebook.com/ChemineersSociety/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/chemineers?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWbZDLc9kS5GTKK60Tsk5%2FA%3D%3D" target="_blank""><i class="fab fa-linkedin-in"></i></a>
+
+      </div>
+
+
+    </div>
+    <div class="lastpart-col">
+
+      <h3>External Links</h3>
+      <br>
+      <div class="links">
+        <div><a href="https://www.iitk.ac.in" target="_blank">IIT Kanpur</a></div>
+        <div><a href="https://www.iitk.ac.in/che/" target="_blank">Chemical Engineering, IITK</a></div>
+      </div>
+      
+
+    </div>
+    
+    
+  </div>
+
+</section>
+</footer>
+
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
