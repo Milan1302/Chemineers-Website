@@ -618,7 +618,7 @@ margin-top:5px;
     padding-bottom: 10px;
     padding-top: 0px;
     font-size: 30px;
-
+    font:poppins;
   }
   .ses_left p{
     color: #777;
@@ -631,8 +631,9 @@ margin-top:5px;
     border-radius: 10px;
     text-align: justify;
     box-shadow: 5px 10px #b8b8b8;
+    min-height: 250px;
     height: auto;
-
+    font:poppins;
   
   }
   .ses_right{
@@ -677,6 +678,9 @@ display: none;
 .first h1{
   margin-top: 100px;
   text-align: center;
+  font:poppins;
+  font-weight: 600;
+
 }
 p{
   color: #777;
@@ -684,6 +688,8 @@ p{
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
+  font:poppins;
+
 }
 ul{
   color: #777;
@@ -691,6 +697,8 @@ ul{
   font-weight: 300;
   line-height: 22px;
   padding: 30px;
+  font:poppins;
+
 }
 .row{
   /* margin-top: 5%; */
@@ -708,10 +716,12 @@ ul{
   box-sizing: border-box;
   height: auto;
 }
-h3{
+.simutech-col h3{
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   margin: 10px 0;
+  font:poppins;
+
 }
 .simutech-col:hover{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
