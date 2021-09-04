@@ -736,26 +736,7 @@ ul{
 
 
 
-@media (max-width: 700px) {
-  .row, .rows{
-    flex-direction: column;
-  }
-}
-@media (max-width: 800px){
-.carousel
-  {
-    display: block;
-  }
-}
-@media (max-width: 800px) {
-  .row, .rows{
-    flex-direction: column;
-  }
-  .ses_left p{
-    height: auto;
-  }
-  
-}
+
 
 
 /*-----------FACULTY-----------*/
