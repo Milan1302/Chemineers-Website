@@ -21,7 +21,7 @@
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-}
+}---
 nav img{
   width: 150px;
   float: left;
@@ -361,6 +361,7 @@ nav .fas{
   }
   
   /* TEAM */
+  
   .arm {
   display: flex;
   flex-wrap: wrap;
@@ -458,7 +459,8 @@ margin-top:5px;
   padding:10px;
 }
 .team-col img {
-  width: 70%;
+  height: 300px;
+  width: 250px;
   border-radius: 40px;
   padding-top: 0.3vw;
 }
@@ -862,4 +864,3 @@ footer .links a{
   
   
   
-
